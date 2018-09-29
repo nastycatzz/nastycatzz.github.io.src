@@ -16,7 +16,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Nasty Catzz</h1>
         </header>
-        <Calendar year={2018} onPickDate={onDatePicked} />
+        <div id="box">
+          <Calendar year={2018} onPickDate={onDatePicked} />
+        </div>
+
       </div>
     );
   }
